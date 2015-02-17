@@ -1,0 +1,27 @@
+{
+  "name": "loglog-rollbar",
+  "version": "0.0.0",
+  "description": "Loglog Rollbar Transport",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/goodybag/loglog-rollbar.git"
+  },
+  "keywords": [
+    "Loglog",
+    "Rollbar",
+    "Logging"
+  ],
+  "author": "Preston Pham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goodybag/loglog-rollbar/issues"
+  },
+  "homepage": "https://github.com/goodybag/loglog-rollbar",
+  "dependencies": {
+    "rollbar": "^0.4.4"
+  }
+}
