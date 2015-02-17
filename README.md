@@ -13,7 +13,7 @@ __Usage__
 ```javascript
 var loglog = require('loglog');
 
-// Log 'errors' and 'warn' level entries to Rollbar
+// Log 'error' and 'warn' level entries to Rollbar
 var logger = loglog.create( 'App', {
   transports: [
     require('loglog-rollbar')({
